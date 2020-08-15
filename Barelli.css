@@ -3,7 +3,7 @@ body {
     color: white;
 }
 .main-page {
-    background-image: url("Barelli/Main_page.jpg");
+    background-image: url("Main_page.jpg");
     border: 1px solid #FFFFFF;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@ body {
     content: "";
 }
 .logo {
-    background-image: url("Barelli/logo011_new.png");
+    background-image: url("logo011_new.png");
     background-repeat: no-repeat;
     background-size: contain;
     width: 102px;
@@ -130,19 +130,19 @@ body {
     margin-bottom: 10px;
 }
 .features-img-bread {
-    background-image: url("Barelli/bread1.png");
+    background-image: url("bread1.png");
     background-position: center, center;
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
 .features-img-desert {
-    background-image: url("Barelli/cake2.png");
+    background-image: url("cake2.png");
     background-position: center, center;
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
 .features-img-kitchen {
-    background-image: url("Barelli/pizza.png");
+    background-image: url("pizza.png");
     background-position: center, center;
     background-size: 100% auto;
     background-repeat: no-repeat;

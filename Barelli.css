@@ -1,0 +1,166 @@
+body {
+    background-color: black;
+    color: white;
+}
+.main-page {
+    background-image: url("Barelli/Main_page.jpg");
+    border: 1px solid #FFFFFF;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 65px;
+    padding-bottom: 255px;
+}
+.header-top {
+    margin-bottom: 170px;
+}
+.header-top::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.logo {
+    background-image: url("Barelli/logo011_new.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 102px;
+    min-height: 77px;
+    float: left;
+    margin-left: 50px;
+}
+.menu {
+    float: left;
+}
+.menu li {
+    display: inline-block;
+    /*padding: 0px 0px 15px 15px;*/
+    font-family: Cormorant, ;
+    font-size: 20px;
+    margin-right: 45px;
+}
+.menu .icon img {
+    width: 37px;
+    height: 37px;
+}
+.menu .icon-card {
+    position: relative;
+    height: -40px;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.menu .icon-login {
+    position: relative;
+    height: 40px;
+    width: auto;
+    margin-right: 50px;
+}
+.menu icon-phone {
+    position: relative;
+    height: 20px;
+    width: auto;
+}
+.promo {
+    margin-left: 50px;
+}
+.promo-social {
+    float: left;
+    padding-bottom: 0px;
+}
+.promo-item {
+    float: left;
+    padding-left: 60px;
+}
+.promo::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.promo-social a img {
+    padding-top: 20px;
+    height: 37px;
+    width: 37px;
+}
+.promo-title {
+    font-size: 54px;
+    font-family: Vogue Highline Serif;
+}
+.promo-text {
+    font-size: 20px;
+    font-family: Cormorant sans-serif;
+    line-height: 1.5;
+}
+.btn-order {
+    border: 1px solid #FFFFFF;
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    color: white;
+    font-family: Vogue Highline Serif;
+    text-align: center;
+    padding-top: 6px;
+    text-decoration: none;
+}
+.container {
+    width: 1090px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.features {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.features-item {
+    float: left;
+    margin-right: 50px;
+    width: 330px;
+}
+.features-item:last-child {
+    margin-right: 0px;
+}
+.features-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.features-img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.features-img-bread {
+    background-image: url("Barelli/bread1.png");
+    background-position: center, center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.features-img-desert {
+    background-image: url("Barelli/cake2.png");
+    background-position: center, center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.features-img-kitchen {
+    background-image: url("Barelli/pizza.png");
+    background-position: center, center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.features-text {
+    font-size: 20px;
+    font-family: Cormorant sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}
+.history {
+    background-image: url(Barelli/History.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border: 1px solid #FFFFFF;
+}
+.history-title {
+    text-align: center;
+    font-family: Cormorant sans-serif;
+    font-size: 54px;
+}
